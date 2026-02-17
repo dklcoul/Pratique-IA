@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    .pricing {
+      width: 300px;
+      margin: 40px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px #ccc; /* corrigé */
+      padding: 16px;
+      text-align: left;
+      font-family: Arial, sans-serif;
+      border-radius: 8px;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 0 0 8px; /* stabilise l’espacement */
+    }
+
+    .price {
+      font-size: 18px;
+      color: green;
+      margin: 0 0 12px; /* stabilise l’espacement */
+    }
+
+    .features {
+      list-style: none;
+      padding-left: 0;
+      margin: 0; /* évite l’espace par défaut */
+    }
+
+    .features li {
+      padding: 8px 4px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .features li:last-child {
+      border-bottom: none;
+    }
+
+    .btn {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 12px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .btn:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="pricing">
+    <h2 class="title">Basic Plan</h2> <!-- corrigé -->
+    <p class="price">$9.99 / mois</p>
+
+    <ul class="features">
+      <li>1 GB Storage</li>
+      <li>Basic Support</li>
+      <li>All Core Features</li>
+    </ul>
+
+    <button class="btn" type="button">Start Trial</button>
+  </div>
+</body>
+</html>
